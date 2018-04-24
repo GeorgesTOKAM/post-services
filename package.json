@@ -1,0 +1,41 @@
+{
+  "name": "post-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "post-services"
+  },
+  "author": "Georges TOKAM",
+  "license": "ISC",
+  "dependencies": {
+    "Faker": "^0.7.2",
+    "babel-preset-node5": "^12.0.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "faker": "^4.1.0",
+    "graphql": "^0.13.2",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.5.3",
+    "node-datetime": "^2.0.6",
+    "path": "^0.12.7",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.6",
+    "serve-favicon": "^2.5.0",
+    "sqlite3": "^4.0.0",
+    "tedious": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "lodash": "^4.17.5"
+  }
+}
